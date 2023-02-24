@@ -16,7 +16,7 @@ function MainHeader() {
   function SubHeader() {
     return <p style={subHeaderStyle} className="text-center">This will be an exciting course.</p>;
   }
-  export default function Header() {
+  const Header=()=> {
     return (
       <div>
         <MainHeader></MainHeader>
@@ -25,3 +25,4 @@ function MainHeader() {
     );
   }
 
+export default Header;
